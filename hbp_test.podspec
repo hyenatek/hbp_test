@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "hbp_test"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Hyenatek hbp test framework"
   spec.description  = "Hyenatek hbp test description"
   spec.homepage     = "https://github.com/hyenatek/hbp_test"
@@ -20,6 +20,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'hbp.xcframework'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.static_framework = true
   spec.license      = { :type => 'MIT', :text => <<-LICENSE
   Copyright (c) 2024 Hyena
 
