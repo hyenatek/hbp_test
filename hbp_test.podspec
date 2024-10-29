@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "hbp_test"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Hyenatek hbp test framework"
   spec.description  = "Hyenatek hbp test description"
   spec.homepage     = "https://github.com/hyenatek/hbp_test"
